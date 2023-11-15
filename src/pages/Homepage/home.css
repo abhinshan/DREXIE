@@ -1,0 +1,160 @@
+.head{
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    
+}
+.drexie{
+    font-family: 'Times New Roman', Times, serif;
+}
+.under{
+    /* background-color: aqua; */
+    width: 140px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.under u {
+    /* background-color: blue; */
+    font-size: 08px;
+    position: absolute;
+margin-top: 38px;    
+}
+.navbar_elements{
+    width: 100%;
+    height: 50px;
+    box-shadow:2px;
+    border:0.5px solid rgb(155, 151, 151);
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+
+}
+.navbar_elements_sub{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+.background_img{
+    background-image: url("https://images.herzindagi.info/image/2022/May/clothes-to-repeat-fashion-tips.jpg");
+    width: 100%;
+    height: 600px;
+    background-position:200px;
+    /* object-fit:fill; */
+    background-size: contain;
+}
+.featured_items{
+    /* background-color:aqua; */
+    width: 100%;
+    height:500px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.borderline{
+    width: 40px;
+    height: 5px;
+    background-color: aqua;
+}
+.featured_bar{
+    width:68%;
+    height:80px ;
+    /* background-color: aqua; */
+}
+.items{
+    width:80%;
+    height: 400px;
+    /* background-color: rgb(21, 255, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    /* overflow-x:; */
+/* overscroll-behavior-x: contain; */
+/* overflow-inline: scroll; */
+
+}
+.featured_card{
+    width: 23%;
+    height: 350px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:0.5px solid rgb(214, 211, 211);
+
+}
+.featured_img_card{
+    width: 80%;
+    height: 280px;
+    /* background-color: bisque; */
+    /* border: 0.5px solid gray; */
+}
+.featured_card_price{
+    width: 80%;
+    height: 60px;
+    /* background-color:red; */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+
+}
+.featured_paragrah{
+    width: 150px;
+    font-size: large;
+    font-weight: 600;
+}
+.featured_images{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.footer{
+    width: 100%;
+    height:400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIMW6QY789xKkV83UlLvrS42EvnjH9_YwZ4Q&usqp=CAU');
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+
+}
+.footer_input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+
+  color:aqua;
+}
+.footer button{
+    width: 180px;
+    height: 35px;
+    background-color: white;
+    color:aqua;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+.inp_btn{
+    width: 420px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_text{
+    width:650px;
+    height: 200px;
+    /* background-color: beige; */
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
